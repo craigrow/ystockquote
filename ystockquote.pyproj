@@ -17,9 +17,12 @@
   <ItemGroup>
     <Content Include="stocklist.txt" />
     <Compile Include="getQuotes.py" />
+    <Compile Include="merger.py" />
     <Compile Include="setup.py" />
     <Compile Include="test_ystockquote.py" />
     <Compile Include="ystockquote.py" />
+    <Content Include="testMergeInput1.txt" />
+    <Content Include="testMergeInput2.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
